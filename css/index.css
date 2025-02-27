@@ -76,6 +76,17 @@
     color: #FFF;
 }
 
+.login {
+    background-color: #FFF;
+    border-radius: 1.5rem;
+    padding: 1rem;
+}
+
+.login >.text {
+    color: black;
+    font-weight: 600;
+}
+
 @keyframes show-logo {
     0% {
         width: 1rem;
@@ -117,4 +128,9 @@
     .sct {
         align-items: flex-start;
     } 
+
+    .login {
+        padding: 0.5rem;
+        margin-left: 1.5rem;
+    }
 }
