@@ -43,7 +43,7 @@
     top: 2rem;
     animation-name: show-logo;
     animation-delay: 1s;
-    animation-duration: 2s;
+    animation-duration: 2.5s;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
 }
@@ -77,14 +77,15 @@
 }
 
 .login {
-    background-color: #FFF;
+    background-color: #FFCC29;
     border-radius: 1.5rem;
     padding: 1rem;
 }
 
 .login >.text {
-    color: black;
+    color:#0000CC;
     font-weight: 600;
+    font-size: 1.4rem;
 }
 
 @keyframes show-logo {
