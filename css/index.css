@@ -20,17 +20,31 @@
     align-items: center;
 }
 
+.line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line::after {
+    content: '';
+    border-left: #FFF 0.1rem solid;
+    height: 24rem;
+}
+
+
 .links {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 1.5rem;
+    gap: 1.7rem;
 }
 
 .container-sv {
     position: absolute;
-    top: 25rem;
+    top: 26rem;
     background-color: #FFCC29;
     border-radius: 2rem;
     padding: 0.7rem;
@@ -40,7 +54,7 @@
 .gdf {
     width: 0rem;
     position: absolute;
-    top: 2rem;
+    top: 2.1rem;
     animation-name: show-logo;
     animation-delay: 1s;
     animation-duration: 2.5s;
