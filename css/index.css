@@ -82,12 +82,18 @@
     width: 2.5rem;
 }
 
+#cloud {
+    width: 3.5rem;
+}
+
 .text {
     font-family: "Poppins", serif;
     font-weight: 300;
     font-style: normal;
     font-size: 1.3rem;
     color: #FFF;
+    margin-left: -2rem;
+    margin-right: 0.5rem;
 }
 
 .login {
