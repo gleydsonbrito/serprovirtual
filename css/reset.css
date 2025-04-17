@@ -49,5 +49,6 @@ table {
 
 body {
 	background-image: url('../assets/fundo.png');
-	background-size: cover
+	background-size: cover;
+	font-family: "Poppins", Calibri, 'Trebuchet MS', sans-serif;
 }

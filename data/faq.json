@@ -1,0 +1,166 @@
+[
+    {
+        "pergunta": "O que é o SERPRO VIRTUAL?",
+        "resposta": ["O SERPRO VIRTUAL é um serviço de Estações Virtuais (DaaS – Desktop as a Service) fornecido pelo Serviço Federal de Processamento de Dados (SERPRO). Ele permite o uso de máquinas virtuais seguras, escaláveis e acessíveis remotamente, garantindo maior flexibilidade e eficiência operacional."]
+    },
+    {
+        "pergunta": "Quem pode utilizar o SERPRO VIRTUAL?",
+        "resposta": ["O serviço é destinado a órgãos governamentais, instituições públicas e seus usuários autorizados, incluindo servidores, gestores e equipes técnicas envolvidas nos projetos contratados."]
+    },
+    {
+        "pergunta": "Como funciona o acesso às máquinas virtuais?",
+        "resposta": ["Os usuários acessam as máquinas virtuais através de um portal web seguro ou por um cliente remoto, utilizando credenciais fornecidas pelo órgão contratante. O acesso pode ser feito de qualquer dispositivo com conexão à internet."]
+    },
+    {
+        "pergunta": "O que diferencia o SERPRO VIRTUAL de um desktop tradicional?",
+        "resposta": [
+            "Acesso remoto a qualquer momento e de qualquer lugar",
+            "Maior segurança, com armazenamento protegido e controle centralizado",
+            "Escalabilidade, permitindo ajuste da capacidade conforme a demanda",
+            "Menor custo com infraestrutura, eliminando a necessidade de hardware local"
+        ]
+    },
+    {
+        "pergunta": "Quais são os tipos de máquinas virtuais disponíveis?",
+        "resposta": [
+            "O SERPRO VIRTUAL oferece diferentes configurações de máquinas virtuais, incluindo:",
+            "Máquinas com GPU (VGPU): Para cargas de trabalho mais pesadas, como modelagem gráfica e uso de softwares especializados.",
+            "Máquinas sem GPU (Standard): Para tarefas administrativas, navegação e uso de softwares comuns."
+        ]
+    },
+    {
+        "pergunta": "Quais os requisitos técnicos para acessar o SERPRO VIRTUAL?",
+        "resposta": [
+            "Conexão estável com a internet",
+            "Navegador atualizado (Chrome, Edge, Firefox) ou cliente de acesso remoto",
+            "Credenciais de autenticação fornecidas pelo órgão contratante"
+        ]
+    },
+    {
+        "pergunta": "Como solicitar o acesso ao SERPRO VIRTUAL?",
+        "resposta": [
+            "O acesso deve ser solicitado pelo órgão contratante por meio da Ordem de Serviço (OS), que define quais usuários terão permissão para utilizar o serviço."
+        ]
+    },
+    {
+        "pergunta": "Qual é o tempo médio para provisionamento de uma máquina virtual?",
+        "resposta": [
+            "O tempo pode variar conforme o volume da solicitação, mas normalmente o provisionamento ocorre em até 48 horas após a aprovação da OS."
+        ]
+    },
+    {
+        "pergunta": "O que acontece se houver problemas de acesso?",
+        "resposta": [
+            "Caso um usuário tenha dificuldades para acessar o serviço, ele deve:",
+            "Verificar sua conexão com a internet.",
+            "Reiniciar o navegador ou cliente remoto.",
+            "Conferir se suas credenciais estão corretas.",
+            "Entrar em contato com a equipe de suporte do SERPRO ou com a TI do órgão contratante."
+        ]
+    },
+    {
+        "pergunta": "Como são criadas e desativadas as máquinas virtuais?",
+        "resposta": [
+            "As máquinas virtuais são criadas e desativadas conforme a demanda do órgão contratante. O processo é gerenciado por meio de Ordens de Serviço (OS) assinadas pelos responsáveis do projeto e encaminhadas ao SERPRO."
+        ]
+    },
+    {
+        "pergunta": "Como são definidos os perfis de acesso dos usuários?",
+        "resposta": [
+            "Os perfis de acesso são determinados pelo órgão contratante e configurados conforme as necessidades do projeto. Os usuários podem ter permissões diferenciadas, como acesso restrito a determinados sistemas e diretórios."
+        ]
+    },
+    {
+        "pergunta": "Qual é a política de segurança do SERPRO VIRTUAL?",
+        "resposta": [
+            "Uso de ambiente isolado e seguro para cada usuário",
+            "Monitoramento contínuo para detecção de ameaças",
+            "Controle rigoroso de acessos e permissões",
+            "Conformidade com a Lei Geral de Proteção de Dados (LGPD)"
+        ]
+    },
+    {
+        "pergunta": "Os dados armazenados nas máquinas virtuais são protegidos?",
+        "resposta": [
+            "Sim, os dados são armazenados em ambiente seguro e criptografado. Além disso, há políticas de backup e recuperação para garantir a integridade das informações."
+        ]
+    },
+    {
+        "pergunta": "Existe suporte técnico para os usuários?",
+        "resposta": [
+            "Sim! O SERPRO oferece suporte técnico especializado para resolver dúvidas e incidentes. O contato pode ser feito por meio dos canais oficiais do SERPRO ou pelo suporte do órgão contratante."
+        ]
+    },
+    {
+        "pergunta": "O que acontece se minha sessão for desconectada inesperadamente?",
+        "resposta": [
+            "Caso a sessão seja desconectada por inatividade ou falha de conexão, o usuário poderá se reconectar normalmente. Em caso de persistência do problema, deve acionar o suporte."
+        ]
+    },
+    {
+        "pergunta": "Como funciona a política de desligamento automático das máquinas virtuais?",
+        "resposta": [
+            "Dependendo da configuração do contrato, as máquinas podem ser configuradas para desligamento automático após um período de inatividade, otimizando o uso de recursos."
+        ]
+    },
+    {
+        "pergunta": "Como são gerenciadas as atualizações e patches de segurança?",
+        "resposta": [
+            "As atualizações e patches de segurança são aplicados pelo SERPRO de forma centralizada, garantindo a proteção contínua do ambiente."
+        ]
+    },
+    {
+        "pergunta": "Como solicitar novas VMs ou ajustes no ambiente?",
+        "resposta": [
+            "As solicitações devem ser feitas via Ordem de Serviço (OS), seguindo os trâmites do contrato. O gestor do contrato pode orientar sobre o fluxo correto para envio das solicitações."
+        ]
+    },
+    {
+        "pergunta": "Existe um relatório de uso das máquinas virtuais?",
+        "resposta": [
+            "Sim, o SERPRO disponibiliza relatórios mensais com informações sobre a utilização das máquinas virtuais, desempenho e conformidade com os níveis de serviço (SLAs)."
+        ]
+    },
+    {
+        "pergunta": "Como é medida a disponibilidade do serviço?",
+        "resposta": [
+            "A disponibilidade do serviço é monitorada com base no SLA contratado, garantindo um uptime mínimo de 98%."
+        ]
+    },
+    {
+        "pergunta": "Qual é a política de backup das máquinas virtuais?",
+        "resposta": [
+            "Os backups são realizados conforme a política definida no contrato, podendo incluir backups diários, semanais e mensais, com restauração sob demanda."
+        ]
+    },
+    {
+        "pergunta": "O que fazer se precisar acessar um software específico dentro da VM?",
+        "resposta": [
+            "Caso um usuário precise de um software específico dentro da máquina virtual, a solicitação deve ser formalizada pelo órgão contratante via OS para análise e possível provisionamento."
+        ]
+    },
+    {
+        "pergunta": "Há restrições para a instalação de softwares pelos usuários?",
+        "resposta": [
+            "Sim. Para garantir a segurança e conformidade do ambiente, a instalação de softwares é controlada e deve ser autorizada previamente pelo gestor do contrato."
+        ]
+    },
+    {
+        "pergunta": "O SERPRO VIRTUAL é compatível com impressoras locais?",
+        "resposta": [
+            "Sim, dependendo da configuração, é possível mapear impressoras locais para uso dentro da máquina virtual."
+        ]
+    },
+    {
+        "pergunta": "Posso acessar arquivos locais dentro da VM?",
+        "resposta": [
+            "Sim, dependendo da configuração de segurança adotada pelo órgão contratante, é possível habilitar o acesso a arquivos locais no dispositivo do usuário."
+        ]
+    },
+    {
+        "pergunta": "O que acontece com as máquinas virtuais ao fim do contrato?",
+        "resposta": [
+            "Ao fim do contrato, as máquinas virtuais são desativadas e os dados podem ser exportados ou removidos, conforme definido nos termos do contrato."
+        ]
+    }
+]

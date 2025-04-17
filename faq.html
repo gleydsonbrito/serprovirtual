@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/faq.css">
+    <title>FAQ - SV</title>
+</head>
+
+<body>
+    <div class="faq">
+        <div class="wrapper-titulo">
+            <img class="icon-faq" src="./assets/icons/questao.png" alt="">
+            <h1 class="titulo-faq">Perguntas frequentes sobre o Serpro Virtual</h1>
+            <div class="c-sv">
+                <a href="./index.html">
+                    <img class="sv" src="./assets/logo_sv.png" alt="">
+                </a>
+            </div>
+            <a class="back" href="./index.html">Voltar à página inicial</a>
+        </div>
+        <div class="wrapper-main">
+            <div class="wrapper-filtro">
+                <input type="text" class="filtroFAQ" placeholder="Informe um termo para buscar...">
+                <input class="btn" type="button" value="+ Expandir tudo">
+            </div>
+            <main class="container-faq">
+            </main>
+        </div>
+    </div>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        fetch('./data/faq.json')
+            .then(res => res.json())
+            .then(faqs => {
+                const containerFAQ = document.querySelector('.container-faq');
+                const filtro = document.querySelector('.filtroFAQ');
+
+                let FAQsOriginal = [...faqs];
+                let FAQsFiltradas = [...faqs];
+
+                function renderFAQs(faqsToRender) {
+                    containerFAQ.innerHTML = '';
+
+                    faqsToRender.forEach(item => {
+                        const respostasHTML = item.resposta.map(res => `
+                        <div class="respostas-faq-wrapper">
+                            <img class="check-faq" src="./assets/icons/check.png" alt="">
+                            <p class="respostas-faq">${res}</p>
+                        </div>`).join('');
+
+                        const itemFAQ = `
+                        <div class="item-faq">
+                            <details class="detalhe-faq">
+                                <summary class="summary-faq">${item.pergunta}</summary>
+                                ${respostasHTML}
+                            </details>
+                        </div>`;
+                        containerFAQ.insertAdjacentHTML('beforeend', itemFAQ);
+                    });
+                    if (faqsToRender.length === 0) {
+                        containerFAQ.innerHTML = '<p style="color: #FFF" class="sem-resultados">Desculpe. Nenhum resultado foi encontrado para sua busca.</p>';
+                    }
+                }
+                renderFAQs(FAQsFiltradas);
+
+                filtro.addEventListener('input', event => {
+                    const busca = event.target.value.toLowerCase();
+
+                    if (busca === '') {
+                        FAQsFiltradas = [...FAQsOriginal];
+                    } else {
+                        FAQsFiltradas = FAQsOriginal.filter(faq => {
+                            const perguntaContem = faq.pergunta.toLowerCase().includes(busca);
+                            const respostaContem = faq.resposta.some(r => r.toLowerCase().includes(busca));
+                            return perguntaContem || respostaContem;
+                        });
+                    }
+                    renderFAQs(FAQsFiltradas);
+                });
+            })
+            .catch(error => {
+                console.error('Erro ao carregar o FAQ:', error);
+                document.querySelector('.container-faq').innerHTML =
+                    '<p style="color: #FFF" class="erro-carregamento">Erro ao carregar as perguntas frequentes.</p>';
+            });
+    });
+
+    const btn = document.querySelector('.btn')
+    btn.addEventListener('click', function() {
+        const allDetails = document.querySelectorAll('.detalhe-faq')
+        const estadoInicial = allDetails[0]?.hasAttribute('open')
+
+        allDetails.forEach( d => {
+            if(estadoInicial) {
+                d.removeAttribute('open')
+            } else {
+                d.setAttribute('open', '')
+            }
+        })
+
+        btn.value = estadoInicial ? '+ Expandir tudo' : '- Contrair tudo'
+    })
+
+</script>
+
+</html>
