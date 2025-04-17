@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('./data/faq.json')
+    fetch('../data/faq.json')
         .then(res => res.json())
         .then(faqs => {
             const containerFAQ = document.querySelector('.container-faq');
