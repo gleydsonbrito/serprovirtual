@@ -1,6 +1,6 @@
 .faq {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 5fr 6fr;
     background-color: #183a67;
     min-height: 100vh;
 }
@@ -37,7 +37,7 @@
     display: flex;
     justify-content: space-around;
     padding: 1rem 4rem;
-    background: #ffffff;
+    background: #FFCC29;
     position: sticky;
     gap: 2rem;
     top: 0;
@@ -63,9 +63,10 @@
     border-radius: 0.5rem;
     line-height: 1.5rem;
     padding: 0.5rem;
-    border: 1px solid #a4a0a0 !important;
+    border: 1px solid #FFCC29 !important;
     appearance: none;
     -webkit-appearance: none;
+    outline: none !important;
 }
 
 .container-busca {
