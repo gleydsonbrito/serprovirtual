@@ -3,7 +3,10 @@
     grid-template-columns: 5fr 6fr;
     background-color: #183a67;
     min-height: 100vh;
+    min-width: 600px;
 }
+
+
 
 .wrapper-titulo {
     background-color: #4a6fa5;
@@ -11,6 +14,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    gap: 2rem;
     box-sizing: border-box;
     padding: 4rem;
 }
@@ -170,4 +174,40 @@
     color: #FFF;
     text-align: justify;
     line-height: 1.2;
+}
+
+@media (max-width: 900px) {
+    .faq {
+        grid-template-columns: 1fr;
+    }
+
+    .wrapper-titulo {
+        gap: 2rem;
+    }
+
+    .sv {
+        width:8rem;
+        height: auto;
+    }
+
+    .icon-faq {
+        width: 5rem;
+        height: auto;
+    }
+
+    .titulo-faq {
+        font-size: 1.5rem;
+    }
+
+    .back {
+        font-size: 0.8rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
+    .item-faq  {
+        font-size: 0.9rem;
+    }
 }
