@@ -130,7 +130,13 @@
     {
         "pergunta": "Qual é a política de backup das máquinas virtuais?",
         "resposta": [
-            "Os backups são realizados conforme a política definida no contrato, podendo incluir backups diários, semanais e mensais, com restauração sob demanda."
+            "É importante esclarecer que NÃO há mecanismo de backup automático na máquina virtual. Os dados permanecem disponíveis na nuvem, mas apenas na versão original dos arquivos criados. Em caso de falha operacional ou exclusão acidental de um documento, não haverá uma cópia disponível."
+        ]
+    },
+    {
+        "pergunta": "De quem é a responsabilidade sobre os backups dos arquivos?",
+        "resposta": [
+            "A responsabilidade por fazer as cópias de segurança – ou backup regular – é de cada cliente. Os arquivos considerados críticos devem ser replicados por cada cliente, usado os métodos disponíveis mais adequados. Caso necessário, a equipe de TI da sua organização deve ser consultada para saber como os backups devem ser realizados, bem como quais políticas ou procedimentos específicos  devem ser seguidos para uma guarda segura dos dados."
         ]
     },
     {
