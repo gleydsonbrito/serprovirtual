@@ -130,7 +130,7 @@
     {
         "pergunta": "Qual é a política de backup das máquinas virtuais?",
         "resposta": [
-            "É importante esclarecer que NÃO há mecanismo de backup automático na máquina virtual. Os dados permanecem disponíveis na nuvem, mas apenas na versão original dos arquivos criados. Em caso de falha operacional ou exclusão acidental de um documento, não haverá uma cópia disponível."
+            "É importante esclarecer que não há mecanismo de backup automático na máquina virtual. Os dados permanecem disponíveis na nuvem, mas apenas na versão original dos arquivos criados. Em caso de falha operacional ou exclusão acidental de um documento, não haverá uma cópia disponível."
         ]
     },
     {
