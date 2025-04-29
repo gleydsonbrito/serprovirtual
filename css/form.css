@@ -1,0 +1,52 @@
+.bform {
+    overflow: hidden;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../assets/fundo.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.form {
+    width: 90%;
+    height: 90%;
+    border-radius: 1rem;
+}
+
+.wrapper-titulo {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo, .voltar {
+    color: #FFCC29;
+    font-size: 1.5rem;
+    font-family: "Poppins", Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+.voltar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #FFCC29;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    color: #183a67;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.icon-voltar {
+    width: 1.5rem;
+    height: auto;
+
+}

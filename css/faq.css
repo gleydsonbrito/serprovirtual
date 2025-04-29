@@ -17,12 +17,14 @@
     gap: 2rem;
     box-sizing: border-box;
     padding: 4rem;
+    transition: 1s;
 }
 
 .c-sv {
     background-color: #FFCC29;
     padding: 1rem;
     border-radius: 1rem;
+    transition: 1s;
 }
 
 .sv {
@@ -108,6 +110,7 @@
 .icon-faq {
     width: 10rem;
     height: auto;
+    transition: 1s;
 }
 
 .titulo-faq {
@@ -116,6 +119,7 @@
     color: #FFF;
     text-align: center;
     padding: 0 2rem;
+    transition: 1s;
 }
 
 .back {
