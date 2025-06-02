@@ -9,8 +9,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 3rem;
+    justify-content: space-around;
+    padding: 3rem 0;
 }
 
 .sct {
@@ -42,28 +42,30 @@
     gap: 1.7rem;
 }
 
+
+.gdf {
+    display: flex;
+    width: 10rem;
+    height: auto;
+}
+
+.hd {
+    width: 30rem;
+    height: auto;
+    border-radius: 3rem;
+}
+
 .container-sv {
-    position: absolute;
-    top: 26rem;
-    background-color: #FFCC29;
+    display: flex;
+    background-color: #FFF;
     border-radius: 2rem;
     padding: 0.7rem;
 
 }
 
-.gdf {
-    width: 0rem;
-    position: absolute;
-    top: 2.1rem;
-    animation-name: show-logo;
-    animation-delay: 1s;
-    animation-duration: 2.5s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
-}
 
 .sv {
-    width: 15rem;
+    width: 12rem;
 }
 
 .container-link {
@@ -88,7 +90,7 @@
 
 .text {
     font-family: "Poppins", serif;
-    font-weight: 300;
+    font-weight: 500;
     font-style: normal;
     font-size: 1.3rem;
     color: #FFF;
@@ -96,8 +98,18 @@
     margin-right: 0.5rem;
 }
 
+.text-green{
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: #479e67;
+    margin-left: -2rem;
+    margin-right: 0.5rem;
+}
+
 .login {
-    background-color: #FFCC29;
+    background-color: #FFF;
     border-radius: 1.5rem;
     padding: 1rem;
 }
@@ -106,16 +118,6 @@
     color:#0000CC;
     font-weight: 600;
     font-size: 1.4rem;
-}
-
-@keyframes show-logo {
-    0% {
-        width: 1rem;
-        top: 25rem
-    }
-    100% {
-        width: 28rem;
-    }
 }
 
 @media screen and (max-width: 700px){
