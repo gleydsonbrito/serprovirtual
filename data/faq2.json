@@ -1,0 +1,182 @@
+[
+    {
+        "pergunta": "O que é o projeto EducaDesk Cloud?",
+        "imagem": false,
+        "resposta": [
+            "O projeto Educa Desk Cloud GDF é uma iniciativa inovadora da Secretaria de Estado de Educação do Distrito Federal (SEE-DF), que integra o Programa Horizontes Digitais, voltado a modernizar a infraestrutura das escolas da rede pública.",
+            "Oferece a professores e alunos do Ensino Médio, da Educação Profissional e Tecnológica, um ambiente computacional completo, com recursos digitais acessíveis na nuvem.",
+            "São máquinas virtuais de alto desempenho acessadas de qualquer dispositivo físico conectado à internet, que garantem aos estudantes o acesso a ferramentas digitais alinhadas às demandas do mundo do trabalho e à formação integral. Com a novidade, o ensino ganha em flexibilidade, interatividade, colaboração, autonomia, segurança e Giga velocidades de internet proporcionadas dentro do ambiente virtual.",
+            "Os computadores virtuais vêm com pacote Microsoft Office 365 e softwares voltados às necessidades dos cursos técnicos atendidos. A configuração foi definida pela equipe responsável pela Educação Profissional e Tecnológica da SEE-DF."
+        ]
+    },
+    {
+        "pergunta": "Quem pode ter acesso ao computador virtual do EducaDesk Cloud?",
+        "imagem": false,
+        "resposta": [
+            "O projeto é destinado aos alunos e professores das Escolas Técnicas e dos Centros de Ensino Médio Integrado à Educação Profissional do Distrito Federal. Se você faz parte das turmas contempladas, em breve receberá mais informações sobre como acessar a seu computador virtual."
+        ]
+    },
+    {
+        "pergunta": "O que é o SERPRO VIRTUAL?",
+        "imagem": false,
+        "resposta": [
+            "O SERPRO VIRTUAL é a ferramenta de software utilizada para o gerenciamento dos Computadores Virtuais dentro do projeto EducaDesk Cloud. É uma solução fornecida pelo Serviço Federal de Processamento de Dados - SERPRO, parceiro da Secretaria de Educação nesse importante projeto."
+        ]
+    },
+    {
+        "pergunta": "Como acesso meu Computador Virtual?",
+        "imagem": "app.png",
+        "resposta": [
+            "Você pode acessar seu Computador Virtual de três maneiras:",
+            "Laboratórios das escolas: Nas escolas contempladas, o aplicativo estará instalado nos computadores dos laboratórios, pode ser acessado pelo ícone na área de trabalho, ou pelo menu de programas.",
+            "Computador pessoal: Você poderá baixar e instalar o aplicativo no seu dispositivo físico particular, basta acessar o endereço https://serprovirtual.serpro.gov.br/ utilizar seu usuário e senha, e na próxima tela optar por “Instalar App”",
+            "De qualquer lugar, pela internet: Também é possível acessar diretamente pelo navegador, a partir de qualquer dispositivo de acesso (microcomputador, notebook, Chromebook ou Tablet), de uso privado, público ou compartilhado. Acessar https://serprovirtual.serpro.gov.br/  utilizar seu usuário e senha, e na próxima tela optar por “Acessar pela web”",
+            "Observação: Dê preferência ao uso do aplicativo para ter a melhor experiência de uso."
+        ]
+    },
+    {
+        "pergunta": "Como recupero minha senha de acesso ao Computador Virtual?",
+        "imagem": false,
+        "resposta": [
+            "O login e senha do computador virtual são os mesmos que você já usa no Google Workspace. Quando o seu computador virtual estiver pronto para uso, você receberá orientações sobre acesso, utilização da senha e muito mais. Se precisa de ajuda ou ainda ficar com dúvidas, entre em contato com os professores e/ou coordenadores de curso da Secretaria."
+        ]
+    },
+    {
+        "pergunta": "O que acontece se houver problemas de acesso?",
+        "imagem": false,
+        "resposta": [
+            "Entrar em contato com seu professor/coordenador, eles são os pontos focais para dúvidas sobre o projeto, questões relacionadas a senhas e podem relatar outros tipos de problema para o Serpro e os times de atendimento técnico."
+        ]
+    },
+    {
+        "pergunta": "Ao clicar no ícone do SERPRO VIRTUAL, meu acesso é direcionado para uma página do SERPRO, estou no lugar certo?",
+        "imagem": false,
+        "resposta": [
+            "Sim. O computador virtual é um projeto da Secretaria de Educação do Distrito Federal em parceria com o SERPRO, que é a empresa do governo federal que hospeda o serviço com toda segurança e tecnologia necessária. Se precisa de ajuda ou ainda ficar com dúvidas, entre em contato com os professores e/ou coordenadores de curso da Secretaria."
+        ]
+    },
+    {
+        "pergunta": "De quem é a responsabilidade legal da utilização do computador virtual?",
+        "imagem": false,
+        "resposta": [
+            "O computador virtual está sob responsabilidade do aluno / usuário que o recebeu, portanto, utilize esse recurso de forma correta e com sabedoria."
+        ]
+    },
+    {
+        "pergunta": "Ao tentar acessar o computador virtual SERPRO VIRTUAL apareceu uma mensagem na tela dizendo \"O recurso não está disponível no momento\". O que eu devo fazer?",
+        "imagem": false,
+        "resposta": [
+            "Reinicie o dispositivo físico que você está utilizando para acessar. Caso não funcione, entre em contato com seu professor/coordenador."
+        ]
+    },
+    {
+        "pergunta": "Posso acessar o computador virtual SERPRO VIRTUAL offline, ou seja, sem conexão com internet no meu dispositivo físico de acesso?",
+        "imagem": false,
+        "resposta": [
+            "Não. Você precisa de internet para conseguir acessar o computador virtual SERPRO VIRTUAL."
+        ]
+    },
+    {
+        "pergunta": "Minha internet no meu dispositivo físico de acesso (fora do computador virtual) está funcionando, mas não estou conseguindo acessar meu computador virtual. Como posso resolver?",
+        "imagem": false,
+        "resposta": [
+            "Reinicie o seu dispositivo físico de acesso e tente novamente. Além disso, verifique se a internet está realmente funcionando, abrindo um site no navegador. Caso não funcione, entre em contato com seu professor/coordenador."
+        ]
+    },
+    {
+        "pergunta": "Dentro do meu computador virtual tenho acesso à internet?",
+        "imagem": false,
+        "resposta": [
+            "Sim, dentro do seu computador virtual você conta com uma conexão de internet ultrarrápida."
+        ]
+    },
+    {
+        "pergunta": "Para realizar minhas atividades acadêmicas, terei que instalar algum aplicativo no meu computador virtual?",
+        "imagem": false,
+        "resposta": [
+            "Não, deu computador virtual já vem pré-configurado com todos os aplicativos necessários para o curso em que você está matriculado. Caso identifique a necessidade de softwares adicionais, entre em contato com seu professor/coordenador."
+        ]
+    },
+    {
+        "pergunta": "O que eu devo fazer se eu perceber que o computador virtual está lento?",
+        "imagem": false,
+        "resposta": [
+            "Quando existem atualizações de sistemas ou softwares essa percepção pode acontecer. Neste caso, basta aguardar a atualização terminar que a performance voltará ao normal. Se a lentidão persistir, reinicie o seu computador virtual. Caso não resolva, entre em contato com seu professor / coordenador para que ele possa solicitar atendimento técnico."
+        ]
+    },
+    {
+        "pergunta": "Estou com problemas no áudio e/ou vídeo no meu computador virtual (por exemplo, o microfone, fone de ouvido ou câmera não são reconhecidos ou não estão funcionando). Como posso resolver?",
+        "imagem": false,
+        "resposta": [
+            "Siga estes passos para tentar resolver o problema:",
+            "Reinicie seu computador virtual;",
+            "Reinicie a sua máquina física de acesso;",
+            "Verifique se a tecla “Mudo” não está ativa ou a câmera está “desabilitada”;",
+            "Tente desconectar e conectar os cabos do dispositivo novamente (microfone, fone de ouvido, câmera).",
+            "Verifique no painel de controle do computador virtual se os dispositivos de entrada e saída de áudio / vídeo estão selecionados corretamente.",
+            "Não resolveu? entre em contato com seu professor / coordenador para possa solicitar atendimento técnico."
+        ]
+    },
+    {
+        "pergunta": "O backup no computador virtual é feito automaticamente?",
+        "imagem": false,
+        "resposta": [
+            "Não, a responsabilidade pelo backup é do aluno / usuário. Em caso de dúvidas ou para orientações sobre como proceder, entre em contato seu professor / coordenador."
+        ]
+    },
+    {
+        "pergunta": "Como fazer backup dos arquivos salvos no meu computador virtual?",
+        "imagem": false,
+        "resposta": [
+            "Da mesma maneira que você faz no seu computador físico. Use um Pendrive/HD Externo ou ainda um serviço de armazenamento em nuvem (Google Drive etc.). Crie uma o hábito de realizar seu backup para garantir a segurança dos arquivos. Se continuar com dúvida, entre em contato seu professor / coordenador."
+        ]
+    },
+    {
+        "pergunta": "Se eu conectar um periférico (fone de ouvido, câmera, mouse, teclado, etc.) no meu dispositivo físico de acesso, o computador virtual reconhece?",
+        "imagem": false,
+        "resposta": [
+            "Sim, o computador virtual reconhece automaticamente a maioria dos periféricos conectados ao seu dispositivo físico. Se isso não acontecer, tente reiniciar o dispositivo físico, desconectar o periférico e conectar novamente. Se continuar com dúvida, entre em contato seu professor / coordenador."
+        ]
+    },
+    {
+        "pergunta": "O que acontece com os arquivos dentro do meu computador virtual se o dispositivo físico de acesso de repente desligar?",
+        "imagem": false,
+        "resposta": [
+            "Mesmo que aconteça uma interrupção de energia ou acabe a bateria do seu notebook, com a seu computador virtual o seu trabalho fica preservado. Ao acessar novamente o computador virtual todos os seus arquivos estarão exatamente no ponto onde você parou, afinal, os dados estão seguros em nuvem."
+        ]
+    },
+    {
+        "pergunta": "O computador virtual vem com antivírus?",
+        "imagem": false,
+        "resposta": [
+            "Sim, vem com o padrão do Windows e passa por atualizações constantes."
+        ]
+    },
+    {
+        "pergunta": "Como faço para manter meu computador virtual SERPRO VIRTUAL sempre em pleno funcionamento?",
+        "imagem": false,
+        "resposta": [
+            "Seu SERPRO VIRTUAL está disponível para uso 24h por dia para você estudar e fazer suas pesquisas quando for mais conveniente. Para garantir o melhor desempenho do SERPRO VIRTUAL recomendamos:",
+            "Reinicie a seu computador virtual SERPRO VIRTUAL periodicamente (1 a 2 vezes por semana): Reiniciar a sua máquina ajuda a aplicar atualizações de segurança e liberar a memória e auxilia no funcionamento mais estável e rápido.",
+            "Faça a limpeza de arquivos temporários: Remover arquivos temporários regularmente libera espaço no disco e melhora o desempenho, prevenindo acúmulo de dados desnecessários que podem deixar o sistema mais lento.",
+            "Limpe o cache e o histórico do navegador: Isso ajuda a evitar o acúmulo de dados que podem diminuir o desempenho.",
+            "Realize backups frequentes dos seus trabalhos: Salve suas informações importantes em locais seguros para prevenir perdas inesperadas.",
+            "Evite sobrecarregar a máquina com múltiplos aplicativos desnecessários: Utilize apenas os programas essenciais para as suas atividades.",
+            "Caso precise de ajuda, entre em contato com seu professor / coordenador de curso, ele pode acionar o time técnico para atendimento especializado."
+        ]
+    },
+    {
+        "pergunta": "Como o computador virtual garante a privacidade?",
+        "imagem": false,
+        "resposta": [
+            "Todos os dados pessoais dos usuários são considerados sensíveis e estão sujeitos a mecanismos de proteção como a LGPD, o Procedimento de Dados Pessoais e o Código de Conduta. Além disso, os dados recebidos e enviados a partir do SERPRO VIRTUAL são criptografados de ponta a ponta."
+        ]
+    },
+    {
+        "pergunta": "Após receber meu acesso ao computador virtual por quanto tempo ele ficará disponível para uso?",
+        "imagem": false,
+        "resposta": [
+            "O seu computador virtual permanece ativo durante o seu curso Técnico, Ensino Médio Integral Profissional e enquanto você estiver em conformidade com suas regras. Quando você deixar a rede ou descumprir as diretrizes, a Secretaria de Educação do Distrito Federal poderá solicitar a desativação do computador virtual."
+        ]
+    }
+]

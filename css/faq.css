@@ -1,15 +1,13 @@
 .faq {
     display: grid;
     grid-template-columns: 5fr 6fr;
-    background-color: #183a67;
+    background-color: rgb(4,74,60, 0.85);
     min-height: 100vh;
     min-width: 600px;
 }
 
-
-
 .wrapper-titulo {
-    background-color: #4a6fa5;
+    background-image: url('../assets/fundo.png');
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +19,7 @@
 }
 
 .c-sv {
-    background-color: #FFCC29;
+    background-color: #259b74;
     padding: 1rem;
     border-radius: 1rem;
     transition: 1s;
@@ -43,7 +41,7 @@
     display: flex;
     justify-content: space-around;
     padding: 1rem 4rem;
-    background: #FFCC29;
+    background:rgb(4,74,60, 0.4);
     position: sticky;
     gap: 2rem;
     top: 0;
@@ -51,13 +49,22 @@
 }
 
 .btn {
-    background-color: #2b4e7c;
+    background-color: #259b74;
+    box-shadow: 2px 2px 4px #4d4d4d;
     color: #FFF;
     border-radius: .5rem;
     border: none;
     padding: 0 2rem;
     font-weight: 700;
     font-size: 1.08rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color:#FFF ;
+    color: #414141;
 }
 
 .wrapper-filtro > div {
@@ -69,7 +76,7 @@
     border-radius: 0.5rem;
     line-height: 1.5rem;
     padding: 0.5rem;
-    border: 1px solid #FFCC29 !important;
+    border: 1px solid #1ba465 !important;
     appearance: none;
     -webkit-appearance: none;
     outline: none !important;
@@ -94,7 +101,7 @@
     flex: 1;
     padding: 0 4rem 2rem;
     scrollbar-width: thin;
-    scrollbar-color: #4a6fa5 #2b4e7c;
+    scrollbar-color: #FFF #479e67;
     height: calc(100vh - [altura-do-filtro]);
     margin-top: 2rem;
 }
@@ -103,7 +110,7 @@
     width: 8px;
 }
 .container-faq::-webkit-scrollbar-thumb {
-    background-color: #4a6fa5;
+    background-color: #1ba465;
     border-radius: 4px;
 }
 
@@ -123,6 +130,7 @@
 }
 
 .back {
+    box-shadow: 4px 4px 5px #036813;
     text-decoration: none;
     cursor: pointer;
     color: #393939;
@@ -130,11 +138,13 @@
     background-color: #FFF;
     padding: 1rem;
     border-radius: 2rem;
-    transition: 1s;
+    transition: 0.3s;
 }
 
 .back:hover {
     transform: scale(1.1);
+    background-color: #454545;
+    color: #FFF;
 }
 
 .item-faq {
@@ -148,8 +158,8 @@
 }
 
 .summary-faq {
-    color: #FFCC29;
-    font-weight: 600;
+    color: #f8f8f8;
+    font-weight: 700;
     margin-bottom: 0.5rem;
     cursor: pointer;
     list-style: none;
@@ -173,11 +183,24 @@
     align-items: start;
 }
 
-/* Seu estilo original da resposta (opcional) */
 .respostas-faq {
-    color: #FFF;
+    color: #eeeeee;
     text-align: justify;
     line-height: 1.2;
+}
+
+.faq-image {
+    max-width: 30rem;
+    height: auto;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.imagem-faq-wrapper {
+    margin-top: 10px;
+    margin-left: 30px;
 }
 
 @media (max-width: 900px) {

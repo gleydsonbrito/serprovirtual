@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('../data/faq.json')
+    fetch('../data/faq2.json')
         .then(res => res.json())
         .then(faqs => {
             const containerFAQ = document.querySelector('.container-faq');
@@ -12,25 +12,42 @@ document.addEventListener('DOMContentLoaded', function () {
                 containerFAQ.innerHTML = '';
 
                 faqsToRender.forEach(item => {
-                    const respostasHTML = item.resposta.map(res => `
-                    <div class="respostas-faq-wrapper">
-                        <img class="check-faq" src="./assets/icons/check.png" alt="">
-                        <p class="respostas-faq">${res}</p>
-                    </div>`).join('');
+                    // Gerar conteúdo das respostas
+                    let respostasContent = '';
+                    
+                    // Adicionar cada resposta com o ícone de check
+                    item.resposta.forEach(res => {
+                        respostasContent += `
+                        <div class="respostas-faq-wrapper">
+                            <img class="check-faq" src="./assets/icons/check.png" alt="">
+                            <p class="respostas-faq">${res}</p>
+                        </div>
+                        </br>`;
+                    });
+                    
+                    // Adicionar imagem se existir
+                    if (item.imagem && item.imagem !== false) {
+                        respostasContent += `
+                        <div class="imagem-faq-wrapper">
+                            <img class="faq-image" src="../assets/${item.imagem}" alt="Imagem ilustrativa">
+                        </div>`;
+                    }
 
                     const itemFAQ = `
                     <div class="item-faq">
                         <details class="detalhe-faq">
                             <summary class="summary-faq">${item.pergunta}</summary>
-                            ${respostasHTML}
+                            ${respostasContent}
                         </details>
                     </div>`;
                     containerFAQ.insertAdjacentHTML('beforeend', itemFAQ);
                 });
+                
                 if (faqsToRender.length === 0) {
                     containerFAQ.innerHTML = '<p style="color: #FFF" class="sem-resultados">Desculpe. Nenhum resultado foi encontrado para sua busca.</p>';
                 }
             }
+            
             renderFAQs(FAQsFiltradas);
 
             filtro.addEventListener('input', event => {
@@ -55,18 +72,18 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 });
 
-const btn = document.querySelector('.btn')
+const btn = document.querySelector('.btn');
 btn.addEventListener('click', function() {
-    const allDetails = document.querySelectorAll('.detalhe-faq')
-    const estadoInicial = allDetails[0]?.hasAttribute('open')
+    const allDetails = document.querySelectorAll('.detalhe-faq');
+    const estadoInicial = allDetails[0]?.hasAttribute('open');
 
-    allDetails.forEach( d => {
+    allDetails.forEach(d => {
         if(estadoInicial) {
-            d.removeAttribute('open')
+            d.removeAttribute('open');
         } else {
-            d.setAttribute('open', '')
+            d.setAttribute('open', '');
         }
-    })
+    });
 
-    btn.value = estadoInicial ? '+ Expandir tudo' : '- Contrair tudo'
-})
+    btn.value = estadoInicial ? '+ Expandir tudo' : '- Contrair tudo';
+});

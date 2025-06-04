@@ -55,17 +55,45 @@
     border-radius: 3rem;
 }
 
+.ssedf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ssedf > h2 {
+    font-weight: 600;
+    color: #FFF;
+    text-transform: uppercase;
+    
+}
+
 .container-sv {
     display: flex;
+    justify-content: center;
+    width: 15rem;
+    height: 8rem;
     background-color: #FFF;
     border-radius: 2rem;
-    padding: 0.7rem;
+    padding: 0.7rem
+}
 
+
+.container-hd {
+    display: flex;
+    justify-content: center;
+    box-shadow: 4px 4px 5px #036813;
+    width: 15rem;
+    background-color: #FFF;
+    border-radius: 2rem;
+    padding: 0.7rem
 }
 
 
 .sv {
     width: 12rem;
+    height: auto;
 }
 
 .container-link {
@@ -74,6 +102,9 @@
     align-items: center;
     gap: 2.5rem;
     transition: 0.5s ease;
+    background-color: rgba(39,130,90, 0.6);
+    padding: 1rem 2.5rem;
+    border-radius: 1rem;
 }
 
 .container-link:hover {
@@ -98,20 +129,21 @@
     margin-right: 0.5rem;
 }
 
-.text-green{
+.text-blue{
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: normal;
     font-size: 1.3rem;
-    color: #479e67;
+    color: #234577;
     margin-left: -2rem;
     margin-right: 0.5rem;
 }
 
 .login {
-    background-color: #FFF;
+    background-color: #fff;
+    box-shadow: 4px 4px 5px #036813;
     border-radius: 1.5rem;
-    padding: 1rem;
+    padding: 1rem 3.5rem;
 }
 
 .login >.text {
