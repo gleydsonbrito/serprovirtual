@@ -1,13 +1,13 @@
 .faq {
     display: grid;
-    grid-template-columns: 5fr 6fr;
-    background-color: rgb(4,74,60, 0.85);
+    grid-template-columns: 5fr 5fr;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.1)), rgba(5, 159, 128, 0.3);
     min-height: 100vh;
     min-width: 600px;
 }
 
 .wrapper-titulo {
-    background-image: url('../assets/fundo.png');
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.6)),url('/assets/fundo.png');
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,7 +41,6 @@
     display: flex;
     justify-content: space-around;
     padding: 1rem 4rem;
-    background:rgb(4,74,60, 0.4);
     position: sticky;
     gap: 2rem;
     top: 0;
@@ -49,9 +48,9 @@
 }
 
 .btn {
-    background-color: #259b74;
-    box-shadow: 2px 2px 4px #4d4d4d;
-    color: #FFF;
+    background-color: #f9c204;
+    box-shadow: 2px 4px 5px #188d56;
+    color: #414141;
     border-radius: .5rem;
     border: none;
     padding: 0 2rem;
@@ -130,12 +129,13 @@
 }
 
 .back {
-    box-shadow: 4px 4px 5px #036813;
+    box-shadow: 3px 4px 5px #188d56;
     text-decoration: none;
     cursor: pointer;
     color: #393939;
     font-size: 1.2rem;
-    background-color: #FFF;
+    background-color: #f9c204;
+    border: none;
     padding: 1rem;
     border-radius: 2rem;
     transition: 0.3s;
@@ -143,8 +143,6 @@
 
 .back:hover {
     transform: scale(1.1);
-    background-color: #454545;
-    color: #FFF;
 }
 
 .item-faq {
