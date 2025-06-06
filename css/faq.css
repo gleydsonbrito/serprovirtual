@@ -7,7 +7,7 @@
 }
 
 .wrapper-titulo {
-    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.6)),url('/assets/fundo.png');
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4)),url('/assets/fundo.png');
     background-size: cover;
     display: flex;
     flex-direction: column;
