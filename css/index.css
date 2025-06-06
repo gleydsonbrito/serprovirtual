@@ -103,8 +103,6 @@
     align-items: center;
     gap: 2.5rem;
     transition: 0.5s ease;
-    background-color: rgba(39,130,90, 0.6);
-    padding: 1rem 2.5rem;
     border-radius: 1rem;
 }
 
