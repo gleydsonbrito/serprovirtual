@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4)),url('/assets/fundo.png');
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)),url('/assets/fundo.png');
     background-size: cover;
     height: 100vh;
 }
