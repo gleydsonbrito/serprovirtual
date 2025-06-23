@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     item.resposta.forEach(res => {
                         respostasContent += `
                         <div class="respostas-faq-wrapper">
-                            <img class="check-faq" src="./assets/icons/check.png" alt="">
+                            <img class="check-faq" src="../assets/icons/check.png" alt="">
                             <p class="respostas-faq">${res}</p>
                         </div>
                         </br>`;
