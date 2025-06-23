@@ -201,7 +201,7 @@
     margin-left: 30px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
     .faq {
         grid-template-columns: 1fr;
     }
@@ -221,11 +221,11 @@
     }
 
     .titulo-faq {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .back {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     .btn {
@@ -233,6 +233,21 @@
     }
 
     .item-faq  {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
+
+    .faq-image {
+        max-width: 10rem;
+    }
+
+    .filtroFAQ {
+        width: 7rem;
+        height: 0.8rem;
+    }
+
+    .btn {
+        font-size: 0.6rem;
+        padding: 0.2rem;
+    }
+
 }

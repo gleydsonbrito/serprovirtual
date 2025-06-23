@@ -115,7 +115,7 @@
 }
 
 #cloud {
-    width: 3.5rem;
+    width: 2.5rem;
 }
 
 .text {
@@ -132,7 +132,7 @@
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #234577;
     margin-left: -2rem;
     margin-right: 0.5rem;
@@ -166,6 +166,22 @@
         top: 10rem;
     }
 
+    .hd {
+        width: 15rem;
+        height: auto;
+    
+    } 
+
+    .container-hd  {
+        margin-top: 5rem;
+        width: 10rem;
+        height: auto;
+    }
+
+    .line {
+        display: none;
+    }
+
     .container-link {
         padding: 0 2rem;
     }
@@ -180,7 +196,11 @@
     }
 
     .sct {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: flex-start;
+        padding-bottom: 3rem;
     } 
 
     .login {
